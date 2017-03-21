@@ -1,6 +1,6 @@
 # Git
 ### 1.安装Git
-[Git官方下载地址](http://git-scm.com/download):http://git-scm.com/download
+Git官方下载地址:[http://git-scm.com/download](http://git-scm.com/download)
 ### 2.建立连接
 
 网址：https://help.github.com/articles/generating-ssh-keys
