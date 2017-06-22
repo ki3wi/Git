@@ -57,4 +57,27 @@ Hi `username!` You've successfully authenticated, but GitHub does not provide sh
 
 	$git config --global user.email "you@example.com"
 	$git config --global user.name "Your Name"
-因为Git是分布式版本控制系统，需要登陆账号信息：你的名字和Email地址。
+Git是分布式版本控制系统，需要登陆账号信息：你的名字和Email地址。
+
+
+
+
+--------------------------------------------------------------------------------------------
+
+
+
+####提交流程
+1.git add <file>
+
+2.git commit -m "Operation description"
+
+3.git remote add origin git@github.com ki3wi/project.git
+
+4.git push -u origin master
+
+
+####其他
+1.git pull 抓取远程库到本地
+
+2.git remote rm origin 
+
