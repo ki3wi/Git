@@ -12,7 +12,8 @@ Git官方下载地址:[http://git-scm.com/download](http://git-scm.com/download)
      		
 	cd ~/.ssh
 如果显示‘No such file or directory’那么直接到step3
-如果没有显示‘No such file or directory’删除掉之前的密钥和目录~/.ssh，删除掉同级目录下的.gitconfig文件
+
+如果没有显示‘No such file or directory’删除掉之前的密钥和目录~/.ssh，删除掉同级目录下的.gitconfig文件，重试该命令，就会显示‘No such file or directory’
 
 
 ##### Step2: Back up and remove exiting SSH
