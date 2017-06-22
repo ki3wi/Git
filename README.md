@@ -67,6 +67,7 @@ Git是分布式版本控制系统，需要登陆账号信息：你的名字和Em
 
 
 ####提交流程
+
 1.git add <file>
 
 2.git commit -m "Operation description"
@@ -77,6 +78,7 @@ Git是分布式版本控制系统，需要登陆账号信息：你的名字和Em
 
 
 ####其他
+
 1.git pull 抓取远程库到本地
 
 2.git remote rm origin 
