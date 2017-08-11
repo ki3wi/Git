@@ -27,7 +27,7 @@ Git官方下载地址:[http://git-scm.com/download](http://git-scm.com/download)
 或者去掉 －t rsa，接下来会提示你输入一个文件名来保存你的SSH key ，如果不输入直接回车，则会保存在默认的文件里id_rsa.pub，然后会提示你输入passphrases 连续输入两次，这在你在网页中添加SSH key的时候会让你输入一次。
 
 ##### Step4:Add you ssh key to GitHub
-首先得到刚才生成的SSH，自己打开id_rsa.pub复制内容或者如下命令放到剪切板中也可以
+首先得到刚才生成的SSH，C:\Users\主机名\\.ssh自己打开id_rsa.pub复制内容或者如下命令放到剪切板中也可以
 
     $ sudo apt-get install xclip   //安装剪切板
     $ xclip -sel clip < ~/.ssh/id_rsa.pub 
