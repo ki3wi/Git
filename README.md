@@ -68,22 +68,33 @@ Git是分布式版本控制系统，需要登陆账号信息：你的名字和Em
 
 #### 提交流程
 
-1.git add <file>
+1.$ git add < file > 
 
-2.git commit -m "Operation description"
+2.$ git commit -m "Operation description"
 
-3.git remote add origin git@github.com:ki3wi/project.git（第二次提交时可以省略）
+3.$ git remote add origin git@github.com:ki3wi/project.git（第二次提交时可以省略）
 
-4.git push -u origin master
+4.$git push -u origin master
+
+   $ git push origin master  
 
 由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
 
 从现在起，只要本地作了提交，就可以通过命令：
 
-$ git push origin master
+
+
 #### 拉取
 
-1.git pull 抓取远程库到本地
+如果git pull提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，用命令git branch --set-upstream-to=origin/ < branch > master。
+这就是多人协作的工作模式，一旦熟悉了，就非常简单。
+
+$ git branch --set-upstream-to=origin/master
+
+Branch master set up to track remote branch master from origin.
+
+$ git pull origin master抓取远程库到本地
+
 #### 其他
 2.git remote rm origin 
 
